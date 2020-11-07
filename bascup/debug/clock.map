@@ -1,0 +1,196 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           
+     00000000  l_CABS                          
+     00000000  l_DABS                          
+     00000000  l__CODE                         
+     00000000  s_CABS                          
+     00000000  s_DABS                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000001  s_DATA                          
+     00000003  l_GSFINAL                       
+     0000001A  l_GSINIT                        
+     00000023  l_DATA                          
+     00000024  s_INITIALIZED                   
+     00000043  l_INITIALIZED                   
+     00000043  l_INITIALIZER                   
+     00000067  s_SSEG                          
+     00000083  l_HOME                          
+     0000143F  l_CODE                          
+     00008000  s_HOME                          
+     00008083  s_GSINIT                        
+     0000809D  s_GSFINAL                       
+     000080A0  s_CODE                          
+     000094DF  s_INITIALIZER                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DATA                                00000001    00000023 =          35. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000001  _sec                               clock
+     00000002  _min                               clock
+     00000003  _hour                              clock
+     00000004  _day                               clock
+     00000005  _date                              clock
+     00000006  _month                             clock
+     00000007  _year                              clock
+     00000008  _dot                               clock
+     00000009  _Clock_Temp                        clock
+     0000000B  _DnClock_Tim_0                     clock
+     0000000F  _DnClock_Tim_1                     clock
+     00000013  _DnClock_Tim_2                     clock
+     00000017  _DnClock_Tim_3                     clock
+     0000001B  _timeToSec                         clock
+     0000001F  _timeRes                           clock
+     00000023  _PointTimer                        clock
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+INITIALIZED                         00000024    00000043 =          67. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000024  _brigh                             clock
+     00000025  _command1                          clock
+     00000026  _command2                          clock
+     00000027  _TM1637_seg                        clock
+     0000002B  _ASCI                              clock
+     00000035  _Soft_Timer                        clock
+     00000037  _Point_Meny                        clock
+     00000039  _But_Buff                          clock
+     0000003A  _auto_exit                         clock
+     0000003B  _con_day                           clock
+     0000003F  _con_hour                          clock
+     00000043  _con_min                           clock
+     00000047  _con_sec                           clock
+     0000004B  _cl_hour                           clock
+     0000004F  _cl_min                            clock
+     00000053  _cl_sec                            clock
+     00000057  _con1_sec                          clock
+     0000005B  _clockTemp1                        clock
+     0000005F  _clockTemp2                        clock
+     00000063  _clockTemp3                        clock
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000067    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00008000    00000083 =         131. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00008083    0000001A =          26. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000809D    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    0000143F =        5183. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000081C0  _TM1637_brigh                      clock
+     000081D9  _TM1637_send                       clock
+     00008220  _TM1637_cleer                      clock
+     0000823F  _TM1637_initialization             clock
+     00008257  _i2c_stop                          clock
+     00008307  _i2c_start                         clock
+     0000833A  _i2c_restart                       clock
+     0000839F  _i2c_init                          clock
+     000083BE  _i2c_send_byte                     clock
+     00008479  _i2c_read_byte                     clock
+     0000857E  _RTC_Read                          clock
+     0000862D  _RTC_Set                           clock
+     000086BB  _EEPROM_UNLOCK                     clock
+     000086CC  _hard_Reset                        clock
+     00008746  _button                            clock
+     000087A3  _Set_time                          clock
+     000088ED  _Set_Brigh                         clock
+     000089D6  _Set_DnTimer                       clock
+     00008B4F  _Set_Meny                          clock
+     00008C34  _Meny                              clock
+     00008CE7  _clock                             clock
+     00008DB6  _transTime                         clock
+     00008E12  _conSec                            clock
+     00008F0C  _dnClock                           clock
+     00009318  _main                              clock
+     00009367  __modulong                         
+     000093D7  __divslong                         
+     000093FE  __divulong                         
+     00009458  __mullong                          
+     000094D4  __fast_long_neg                    
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+INITIALIZER                         000094DF    00000043 =          67. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+
+Files Linked                              [ module(s) ]
+
+debug/clock.rel                           [ clock ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _modulong.rel ]
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _divslong.rel ]
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _divulong.rel ]
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _mullong.rel ]
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _fast_long_neg.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DATA = 0x0001
+
+

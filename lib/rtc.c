@@ -96,3 +96,8 @@ unsigned long transTime(unsigned long d, unsigned long h, unsigned long m, unsig
  	return ((d*86400)+(((h*60)+m)*60+s));
 
  }
+
+ /*
+	Спасибо:
+		https://narodstream.ru/avr-urok-17-chasy-realnogo-vremeni-ds1307-chast-1/
+ */

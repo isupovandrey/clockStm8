@@ -162,3 +162,6 @@ unsigned char i2c_read_byte(unsigned char ask)
 			
 		return byte;
 	}
+
+
+	//Источник потерял...
